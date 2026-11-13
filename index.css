@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'May-Medium';
+  src: url('/fonts/May-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  @apply bg-ivory text-ink dark:bg-darkink dark:text-darkoffwhite transition-colors duration-300;
+  font-family: 'May-Medium', 'Padauk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
